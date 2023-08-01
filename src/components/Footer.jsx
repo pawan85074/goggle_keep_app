@@ -5,7 +5,7 @@ function Footer() {
     const curYear=new Date().getFullYear();
   return (
     <>
-        <p className='text-center'>CopyRight © {curYear}</p>
+        <p className="text-center mt-5">CopyRight © {curYear}</p>
     </>
   )
 }
